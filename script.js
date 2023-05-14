@@ -1,3 +1,10 @@
+// GSAP Scroll Trigger Animation
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.defaults({
+  markers: false
+});
+
 // Hero Marquees Loop GSAP
 let object = {
   value: 1
