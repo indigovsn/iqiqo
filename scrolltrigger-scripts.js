@@ -26,7 +26,7 @@ $('.categories_text-wrap').each(function(index) {
     scrollTrigger: {
       trigger: triggerElement,
       start: 'top bottom',
-      end: 'bottom bottom',
+      end: 'bottom center',
       scrub: true
     }
   });
@@ -39,7 +39,7 @@ $('.categories_text-wrap').each(function(index) {
     scrollTrigger: {
       trigger: triggerElement,
       start: 'top bottom',
-      end: 'bottom bottom',
+      end: 'bottom center',
       scrub: true
     }
   });
