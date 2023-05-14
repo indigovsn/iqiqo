@@ -1,3 +1,10 @@
+// GSAP Scroll Trigger Animation
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.defaults({
+  markers: false
+});
+
 // Animate From To | Text Modelli
 $('.categories_text-wrap').each(function(index) {
   var triggerElement = $(this);
