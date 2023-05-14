@@ -22,7 +22,6 @@ $('.categories_text-wrap').each(function(index) {
     paddingBottom: '2em',
     y: '0%',
     x: '0%',
-    ease: 'power2.out',
     scrollTrigger: {
       trigger: triggerElement,
       start: 'top bottom',
@@ -35,7 +34,6 @@ $('.categories_text-wrap').each(function(index) {
     x: '-10%',
   }, {
     x: '0%',
-    ease: 'power2.out',
     scrollTrigger: {
       trigger: triggerElement,
       start: 'top bottom',
